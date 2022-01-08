@@ -1,0 +1,17 @@
+<h1>welcome to university of gujrat</h1> 
+<% @projecta.each do |projecta|%>
+<a href="/projects/<%= projecta.id%>"> <%=projecta.title%></a><br>
+<ul><li>
+<!-- <a href='/index'>Add Bug</a> -->
+  <a href='/bugs/index'> Add Bug</a>
+</li></ul>
+<br> 
+<% end %><br>
+
+
+<%=link_to 'Add Project', projects_path,method: :get %><br>
+
+<%=link_to 'Log Out', sessions_path, method: :delete%>
+
+	
+

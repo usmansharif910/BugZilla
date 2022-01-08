@@ -1,0 +1,18 @@
+
+<h2>New User</h2>
+<%= form_for @user do |f| %>
+
+	<%= f.label :username %>
+	<%= f.text_field :username %><br>
+	<%= f.label :email %>
+	<%= f.email_field :email %><br>
+	<%= f.label :password %>
+	<%= f.password_field :password %><br>
+	<b>Select</b><br />
+    <%= f.radio_button :usertype,  'Manger' %> Manger<br />
+    <%= f.radio_button  :usertype,'Developer' %> Developer<br/>
+    <%= f.radio_button :usertype,'QA' %> QA<br />
+	<%= f.submit "Create Acount" %>
+<% end %>
+
+	

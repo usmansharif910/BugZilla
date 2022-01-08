@@ -1,0 +1,23 @@
+<h3>Add A Bug</h3>
+
+<%= form_with model: @project do |form| %>
+
+  <div>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+   
+  </div>
+
+  <div>
+    <%= form.label :description %><br>
+    <%= form.text_area :description %><br>
+
+    
+    
+  </div>
+  
+  <div><br>
+    <%= form.submit %>
+    
+  </div>
+<% end %>

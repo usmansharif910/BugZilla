@@ -1,0 +1,14 @@
+
+<h5><%= @projecta.title %></h5>
+<h5><%= @projecta.description %></h5>
+
+<ul>
+<li><%= link_to "Edit", edit_project_path%></li> 
+<li><%= button_to "Destroy", (@project),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</li>
+
+
+
+
