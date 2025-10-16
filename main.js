@@ -17,5 +17,7 @@ function generateTableOf2(limit = 10) {
     }
 }
 
+
+
 // Call the function
 generateTableOf2(10);
