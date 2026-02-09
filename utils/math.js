@@ -6,5 +6,9 @@ function sum(a, b) {
   return a + b;
 }
 
-module.exports = { multiply, sum };
+function isEven(n) {
+  return n % 2 === 0;
+}
+
+module.exports = { multiply, sum, isEven };
 

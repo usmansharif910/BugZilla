@@ -1,4 +1,4 @@
-const { multiply, sum } = require("../utils/math");
+const { multiply, sum, isEven } = require("../utils/math");
 
 describe("math utils", () => {
   test("multiply works", () => {
@@ -9,6 +9,12 @@ describe("math utils", () => {
   test("sum works", () => {
     expect(sum(2, 3)).toBe(5);
     expect(sum(-2, 2)).toBe(0);
+  });
+
+  test("isEven works", () => {
+    expect(isEven(2)).toBe(true);
+    expect(isEven(3)).toBe(false);
+    expect(isEven(0)).toBe(true);
   });
 });
 

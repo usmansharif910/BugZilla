@@ -21,3 +21,7 @@ function generateTableOf2(limit = 10) {
 
 // Call the function
 generateTableOf2(10);
+
+// Small demo: use math util
+const { isEven } = require("./utils/math");
+console.log(`\nIs 10 even? ${isEven(10)}`);

@@ -23,3 +23,6 @@ GitHub Actions runs lint and tests on pushes and PRs to `bugzilla-1`.
 
 ### Sample Code
 See `utils/math.js` and tests in `__tests__/math.test.js`.
+
+### Contributing
+See `CONTRIBUTING.md` for the workflow and coding standards.

@@ -13,3 +13,4 @@ function printTableOf(number, limit = 10) {
 printTableOf(10);
 printTableOf(20);
 printTableOf(30);
+console.log("\nFinished generating multiplication tables.");
